@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical|center_horizontal"
+              android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="@dimen/national_item_w"
+        android:layout_height="@dimen/national_item_h">
+
+        <ImageView
+            android:id="@+id/ibtn_photo_1"
+            android:layout_width="@dimen/national_photo_w"
+            android:layout_height="@dimen/national_photo_h"
+            android:background="@mipmap/img_mask"
+            android:layout_marginTop="@dimen/national_photo_top_space"/>
+
+        <TextView
+            android:id="@+id/tv_tag_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/img_countymainpage_shoptag"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/national_tag"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/national_tag_sp"/>
+
+        <Button
+            android:id="@+id/btn_buy_now_1"
+            android:layout_width="@dimen/national_btn_buy_now_w"
+            android:layout_height="@dimen/national_btn_buy_now_h"
+            android:layout_alignBottom="@+id/ibtn_photo_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/national_btn_buy_now_bottom_space"
+            android:background="@mipmap/btn_countymainpage_buynow"
+            android:text="@string/national_btn_buy_now"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/national_btn_buy_now_sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:layout_width="@dimen/national_item_w"
+        android:layout_height="@dimen/national_item_h"
+        android:layout_marginLeft="@dimen/national_item_space"
+        android:layout_marginRight="@dimen/national_item_space">
+
+        <ImageView
+            android:id="@+id/ibtn_photo_2"
+            android:layout_width="@dimen/national_photo_w"
+            android:layout_height="@dimen/national_photo_h"
+            android:background="@mipmap/img_mask"
+            android:layout_marginTop="@dimen/national_photo_top_space"/>
+
+        <TextView
+            android:id="@+id/tv_tag_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/img_countymainpage_shoptag"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/national_tag"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/national_tag_sp"/>
+
+        <Button
+            android:id="@+id/btn_buy_now_2"
+            android:layout_width="@dimen/national_btn_buy_now_w"
+            android:layout_height="@dimen/national_btn_buy_now_h"
+            android:layout_alignBottom="@+id/ibtn_photo_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/national_btn_buy_now_bottom_space"
+            android:background="@mipmap/btn_countymainpage_buynow"
+            android:text="@string/national_btn_buy_now"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/national_btn_buy_now_sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_3"
+        android:layout_width="@dimen/national_item_w"
+        android:layout_height="@dimen/national_item_h">
+
+        <ImageView
+            android:id="@+id/ibtn_photo_3"
+            android:layout_width="@dimen/national_photo_w"
+            android:layout_height="@dimen/national_photo_h"
+            android:background="@mipmap/img_mask"
+            android:layout_marginTop="@dimen/national_photo_top_space"/>
+
+        <TextView
+            android:id="@+id/tv_tag_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/img_countymainpage_shoptag"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/national_tag"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/national_tag_sp"/>
+
+        <Button
+            android:id="@+id/btn_buy_now_3"
+            android:layout_width="@dimen/national_btn_buy_now_w"
+            android:layout_height="@dimen/national_btn_buy_now_h"
+            android:layout_alignBottom="@+id/ibtn_photo_3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/national_btn_buy_now_bottom_space"
+            android:background="@mipmap/btn_countymainpage_buynow"
+            android:text="@string/national_btn_buy_now"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/national_btn_buy_now_sp"/>
+    </RelativeLayout>
+</LinearLayout>

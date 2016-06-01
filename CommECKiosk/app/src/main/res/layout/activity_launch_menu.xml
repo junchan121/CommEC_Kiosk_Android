@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal"
+    tools:context="kiosk.commec.taojin.com.cn.commeckiosk.MainActivity"
+    android:background="@color/color_fffaf0">
+
+    <Button
+        android:id="@+id/btn_community"
+        android:layout_width="@dimen/main_btn_w"
+        android:layout_height="@dimen/main_btn_h"
+        android:layout_gravity="center_vertical"
+        android:text="@string/main_community_title"
+        android:textSize="@dimen/main_btn_txt_sp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="@dimen/main_btn_space"/>
+
+    <Button
+        android:id="@+id/btn_government"
+        android:layout_width="@dimen/main_btn_w"
+        android:layout_height="@dimen/main_btn_h"
+        android:layout_gravity="center_vertical"
+        android:text="@string/main_government_title"
+        android:textSize="@dimen/main_btn_txt_sp"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

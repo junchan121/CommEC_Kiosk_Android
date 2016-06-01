@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical|center_horizontal"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/community_vp_h"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibtn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/community_vp_arrow_lr"
+            android:background="@mipmap/btn_arrow_left"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+
+        <ImageButton
+            android:id="@+id/ibtn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/community_vp_arrow_lr"
+            android:background="@mipmap/btn_arrow_right"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/community_bottom_btns_top"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_hair"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:background="@mipmap/btn_hair"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_hair"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/community_bottom_btn_sp"/>
+
+        <Button
+            android:id="@+id/btn_market"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:layout_marginLeft="@dimen/community_bottom_btn_space"
+            android:background="@mipmap/btn_market"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_market"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/community_bottom_btn_sp"/>
+
+        <Button
+            android:id="@+id/btn_food"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:layout_marginLeft="@dimen/community_bottom_btn_space"
+            android:background="@mipmap/btn_food"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_food"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/community_bottom_btn_sp"/>
+
+        <Button
+            android:id="@+id/btn_life"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:layout_marginLeft="@dimen/community_bottom_btn_space"
+            android:background="@mipmap/btn_life"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_life"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/community_bottom_btn_sp"/>
+
+        <Button
+            android:id="@+id/btn_trade"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:layout_marginLeft="@dimen/community_bottom_btn_space"
+            android:background="@mipmap/btn_trade"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_trade"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/community_bottom_btn_sp"/>
+
+        <Button
+            android:id="@+id/btn_fruit"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:layout_marginLeft="@dimen/community_bottom_btn_space"
+            android:background="@mipmap/btn_fruit"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_fruit"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/community_bottom_btn_sp"/>
+    </LinearLayout>
+</LinearLayout>

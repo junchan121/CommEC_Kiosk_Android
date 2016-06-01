@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">CommEC Kiosk</string>
+
+    <!-- Common -->
+    <string name="main_tab_home">首页</string>
+    <string name="main_tab_national">全国</string>
+    <string name="main_tab_county">县区</string>
+    <string name="main_tab_community">社区</string>
+    <string name="main_tab_shop">店铺</string>
+    <string name="main_tab_cart">购物车</string>
+    <string name="main_tab_return">返回</string>
+
+
+    <!-- K0.0.0外部畫面 -->
+    <string name="main_community_title">电商社区</string>
+    <string name="main_government_title">政府职能</string>
+
+
+    <!-- K1.1.0全國首頁 -->
+    <string name="national_">电商社区</string>
+    <string name="national_tag">贵妇下午茶特辑</string>
+    <string name="national_btn_buy_now">立即选购</string>
+
+
+    <!-- K2.0.0社區首頁 -->
+    <string name="community_">电商社区</string>
+    <string name="community_btn_hair">美发动人</string>
+    <string name="community_btn_market">商超便利</string>
+    <string name="community_btn_food">餐饮外卖</string>
+    <string name="community_btn_life">生活服务</string>
+    <string name="community_btn_trade">综合买卖</string>
+    <string name="community_btn_fruit">生鲜水果</string>
+    <string name="community_price">￥ %1$d</string>
+    <string name="community_reserve_sales">库存:%1$d/销售:%2$d</string>
+
+
+
 </resources>
