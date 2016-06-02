@@ -5,8 +5,8 @@
               android:orientation="vertical">
 
     <RelativeLayout
-        android:layout_width="183.3dp"
-        android:layout_height="96.7dp"
+        android:layout_width="@dimen/community_vp_item_w"
+        android:layout_height="@dimen/community_vp_item_h"
         android:background="@mipmap/img_orange_frame">
 
         <ImageView
@@ -16,7 +16,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/community_vp_item_photo_left_space"
             android:layout_marginRight="@dimen/community_vp_item_photo_right_space"
-            android:src="@color/colorPrimary"/>
+            />
 
         <TextView
             android:id="@+id/tv_goods_name"
@@ -32,8 +32,8 @@
 
         <ImageButton
             android:id="@+id/ibtn_cart"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/community_vp_item_cart_w"
+            android:layout_height="@dimen/community_vp_item_cart_h"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="false"
             android:layout_alignParentRight="true"

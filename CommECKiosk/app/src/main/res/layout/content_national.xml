@@ -14,14 +14,13 @@
             android:id="@+id/ibtn_photo_1"
             android:layout_width="@dimen/national_photo_w"
             android:layout_height="@dimen/national_photo_h"
-            android:background="@mipmap/img_mask"
-            android:layout_marginTop="@dimen/national_photo_top_space"/>
+            android:layout_marginTop="@dimen/national_photo_top_space"
+            android:background="@mipmap/img_mask"/>
 
         <TextView
             android:id="@+id/tv_tag_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="false"
+            android:layout_width="@dimen/national_tag_w"
+            android:layout_height="@dimen/national_tag_h"
             android:layout_alignParentRight="true"
             android:background="@mipmap/img_countymainpage_shoptag"
             android:gravity="center_vertical|center_horizontal"
@@ -54,14 +53,13 @@
             android:id="@+id/ibtn_photo_2"
             android:layout_width="@dimen/national_photo_w"
             android:layout_height="@dimen/national_photo_h"
-            android:background="@mipmap/img_mask"
-            android:layout_marginTop="@dimen/national_photo_top_space"/>
+            android:layout_marginTop="@dimen/national_photo_top_space"
+            android:background="@mipmap/img_mask"/>
 
         <TextView
             android:id="@+id/tv_tag_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="false"
+            android:layout_width="@dimen/national_tag_w"
+            android:layout_height="@dimen/national_tag_h"
             android:layout_alignParentRight="true"
             android:background="@mipmap/img_countymainpage_shoptag"
             android:gravity="center_vertical|center_horizontal"
@@ -92,14 +90,13 @@
             android:id="@+id/ibtn_photo_3"
             android:layout_width="@dimen/national_photo_w"
             android:layout_height="@dimen/national_photo_h"
-            android:background="@mipmap/img_mask"
-            android:layout_marginTop="@dimen/national_photo_top_space"/>
+            android:layout_marginTop="@dimen/national_photo_top_space"
+            android:background="@mipmap/img_mask"/>
 
         <TextView
             android:id="@+id/tv_tag_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="false"
+            android:layout_width="@dimen/national_tag_w"
+            android:layout_height="@dimen/national_tag_h"
             android:layout_alignParentRight="true"
             android:background="@mipmap/img_countymainpage_shoptag"
             android:gravity="center_vertical|center_horizontal"

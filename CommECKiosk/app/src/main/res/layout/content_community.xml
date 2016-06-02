@@ -12,8 +12,8 @@
 
         <ImageButton
             android:id="@+id/ibtn_left"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/community_vp_arrow_w"
+            android:layout_height="@dimen/community_vp_arrow_h"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/community_vp_arrow_lr"
@@ -28,8 +28,8 @@
 
         <ImageButton
             android:id="@+id/ibtn_right"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/community_vp_arrow_w"
+            android:layout_height="@dimen/community_vp_arrow_h"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/community_vp_arrow_lr"

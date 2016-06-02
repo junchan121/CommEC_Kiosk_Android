@@ -5,60 +5,77 @@
 
 
     <!-- Common -->
-    <dimen name="main_tab_sp">8sp</dimen>                                 <!-- Tab 文字大小 -->
-    <dimen name="main_tab_w">56.7dp</dimen>
-    <dimen name="main_tab_h">38dp</dimen>
-    <dimen name="main_tab_top_space">79.7dp</dimen>
+    <dimen name="main_tab_sp">8sp</dimen>                                    <!-- Tab 文字大小 -->
+    <dimen name="main_tab_logo_top_space">20px</dimen>                       <!-- icon 與頂緣 距離 -->
+    <dimen name="main_tab_logo_bottom_space">126.9px</dimen>                 <!-- icon 與下方 首頁按紐 距離 -->
+    <dimen name="main_tab_logo_w">98px</dimen>                               <!-- icon 寬度 -->
+    <dimen name="main_tab_logo_h">109px</dimen>                              <!-- icon 高度 -->
+    <dimen name="main_tab_tab_w">180px</dimen>                               <!-- tab bar 寬度 -->
+    <dimen name="main_tab_tab_h">1080px</dimen>                              <!-- tab bar 高度 -->
+    <dimen name="main_tab_item_w">180px</dimen>                              <!-- tab item 寬度 -->
+    <dimen name="main_tab_item_h">112px</dimen>                              <!-- tab item 高度 -->
+    <dimen name="main_tab_item_cover_w">170px</dimen>                        <!-- tab item 橘色遮罩 寬度 -->
+    <dimen name="main_tab_item_cover_h">108px</dimen>                        <!-- tab item 橘色遮罩 高度 -->
+    <dimen name="main_tab_item_line_w">122px</dimen>                         <!-- tab item 分隔線 寬度 -->
+    <dimen name="main_tab_item_line_h">2px</dimen>                           <!-- tab item 分隔線 高度 -->
+    <dimen name="main_tab_item_line_tb_space">1px</dimen>                    <!-- tab item 分隔線 高度 -->
 
 
     <!-- K0.0.0外部畫面 -->
-    <dimen name="main_btn_w">233.3dp</dimen>                                <!-- 按鈕 寬度 -->
-    <dimen name="main_btn_h">266.7dp</dimen>                                <!-- 按鈕 高度 -->
-    <dimen name="main_btn_txt_sp">24sp</dimen>                              <!-- 按鈕 文字大小 -->
-    <dimen name="main_btn_space">46.7dp</dimen>                             <!-- 按鈕 間距 -->
+    <dimen name="index_btn_w">700px</dimen>                                  <!-- 按鈕 寬度 -->
+    <dimen name="index_btn_h">800px</dimen>                                  <!-- 按鈕 高度 -->
+    <dimen name="index_btn_txt_sp">24sp</dimen>                              <!-- 按鈕 文字大小 -->
+    <dimen name="index_btn_space">140px</dimen>                              <!-- 按鈕 間距 -->
 
 
     <!-- K1.1.0全國首頁 -->
-    <dimen name="national_item_w">170dp</dimen>                             <!-- item 寬度 -->
-    <dimen name="national_item_h">280dp</dimen>                             <!-- item 高度 -->
-    <dimen name="national_item_space">5dp</dimen>                           <!-- item 左右間距 -->
-    <dimen name="national_photo_top_space">5dp</dimen>                      <!-- 圖片 與上緣 距離 -->
-    <dimen name="national_photo_w">166.7dp</dimen>                          <!-- 圖片 寬度 -->
-    <dimen name="national_photo_h">266.7dp</dimen>                          <!-- 圖片 高度 -->
+    <dimen name="national_item_w">515px</dimen>                             <!-- item 寬度 -->
+    <dimen name="national_item_h">815px</dimen>                             <!-- item 高度 -->
+    <dimen name="national_item_space">40px</dimen>                          <!-- item 左右間距 -->
+    <dimen name="national_photo_top_space">15px</dimen>                     <!-- 圖片 與上緣 距離 -->
+    <dimen name="national_photo_w">500px</dimen>                            <!-- 圖片 寬度 -->
+    <dimen name="national_photo_h">800px</dimen>                            <!-- 圖片 高度 -->
     <dimen name="national_tag_sp">10sp</dimen>                              <!-- 標籤 文字大小 -->
+    <dimen name="national_tag_w">300px</dimen>                              <!-- TAG 寬度 -->
+    <dimen name="national_tag_h">60px</dimen>                               <!-- TAG 高度 -->
     <dimen name="national_btn_buy_now_sp">12sp</dimen>                      <!-- 按鈕 立即購買 文字大小 -->
-    <dimen name="national_btn_buy_now_w">80dp</dimen>                       <!-- 按鈕 立即購買 寬度 -->
-    <dimen name="national_btn_buy_now_h">20dp</dimen>                       <!-- 按鈕 立即購買 高度 -->
-    <dimen name="national_btn_buy_now_bottom_space">10dp</dimen>            <!-- 按鈕 立即購買 與下緣 距離 -->
+    <dimen name="national_btn_buy_now_w">240px</dimen>                      <!-- 按鈕 立即購買 寬度 -->
+    <dimen name="national_btn_buy_now_h">60px</dimen>                       <!-- 按鈕 立即購買 高度 -->
+    <dimen name="national_btn_buy_now_bottom_space">30px</dimen>            <!-- 按鈕 立即購買 與下緣 距離 -->
 
 
     <!-- K2.0.0社區首頁 -->
+    <dimen name="community_vp_top">140px</dimen>                            <!-- VP 與頂緣 距離 -->
+    <dimen name="community_vp_h">600px</dimen>                              <!-- VP 高度 -->
+    <dimen name="community_vp_arrow_lr">15px</dimen>                        <!-- VP 左右箭頭 與左右緣 距離 -->
+    <dimen name="community_vp_arrow_w">24px</dimen>                         <!-- VP 左右箭頭 寬度 -->
+    <dimen name="community_vp_arrow_h">40px</dimen>                         <!-- VP 左右箭頭 高度 -->
 
-    <dimen name="community_vp_top">46.7dp</dimen>                           <!-- VP 與頂緣 距離 -->
-    <dimen name="community_vp_h">200.5dp</dimen>                            <!-- VP 高度 -->
-    <dimen name="community_vp_arrow_lr">5dp</dimen>                         <!-- VP 左右箭頭 與左右緣 距離 -->
-
-    <dimen name="community_bottom_btns_top">19dp</dimen>                    <!-- 底部按鈕群 與上方 VP 距離 -->
+    <dimen name="community_bottom_btns_top">57px</dimen>                    <!-- 底部按鈕群 與上方 VP 距離 -->
     <dimen name="community_bottom_btn_sp">10sp</dimen>                      <!-- 底部按鈕群 文字大小 -->
-    <dimen name="community_bottom_btn_txt_top_space">51.7dp</dimen>         <!-- 底部按鈕群文字 與按鈕上緣 距離 -->
-    <dimen name="community_bottom_btn_space">13.3dp</dimen>                 <!-- 底部按鈕群 左右間距 -->
-    <dimen name="community_bottom_btn_wh">66.7dp</dimen>                    <!-- 底部按鈕群 按鈕 寬度高度 -->
+    <dimen name="community_bottom_btn_txt_top_space">152px</dimen>          <!-- 底部按鈕群文字 與按鈕上緣 距離 -->
+    <dimen name="community_bottom_btn_space">40px</dimen>                   <!-- 底部按鈕群 左右間距 -->
+    <dimen name="community_bottom_btn_wh">200px</dimen>                     <!-- 底部按鈕群 按鈕 寬度高度 -->
 
         <!-- item -->
-        <dimen name="community_vp_item_photo_wh">83.3dp</dimen>                   <!-- item 照片 寬度高度 -->
-        <dimen name="community_vp_item_photo_left_space">6.7dp</dimen>            <!-- item 照片 與左內緣 距離 -->
-        <dimen name="community_vp_item_photo_right_space">1.7dp</dimen>           <!-- item 照片 與右側 距離 -->
+        <dimen name="community_vp_item_w">550px</dimen>                           <!-- item 寬度 -->
+        <dimen name="community_vp_item_h">290px</dimen>                           <!-- item 高度 -->
+        <dimen name="community_vp_item_photo_wh">250px</dimen>                    <!-- item 照片 寬度高度 -->
+        <dimen name="community_vp_item_photo_left_space">20px</dimen>             <!-- item 照片 與左內緣 距離 -->
+        <dimen name="community_vp_item_photo_right_space">5px</dimen>             <!-- item 照片 與右側 距離 -->
 
         <dimen name="community_vp_item_goods">10sp</dimen>                        <!-- item 品名 文字大小 -->
-        <dimen name="community_vp_item_goods_top_space">8.3dp</dimen>             <!-- item 品名 與上內緣 距離 -->
+        <dimen name="community_vp_item_goods_top_space">25px</dimen>              <!-- item 品名 與上內緣 距離 -->
 
         <dimen name="community_vp_item_price">16sp</dimen>                        <!-- item 價錢 文字大小 -->
 
         <dimen name="community_vp_item_reserve_sales">4sp</dimen>                 <!-- item 庫存銷量 文字大小 -->
-        <dimen name="community_vp_item_reserve_sales_bottom_space">6.7dp</dimen>  <!-- item 庫存銷量 與底緣 距離 -->
+        <dimen name="community_vp_item_reserve_sales_bottom_space">20px</dimen>   <!-- item 庫存銷量 與底緣 距離 -->
 
-        <dimen name="community_vp_item_cart_right_space">9dp</dimen>              <!-- item 購物車icon與右緣 距離 -->
-        <dimen name="community_vp_item_cart_bottom_space">8.7dp</dimen>           <!-- item 購物車icon與底緣 距離 -->
+        <dimen name="community_vp_item_cart_w">60px</dimen>                       <!-- item 購物車 寬度 -->
+        <dimen name="community_vp_item_cart_h">63px</dimen>                       <!-- item 購物車 高度 -->
+        <dimen name="community_vp_item_cart_right_space">27px</dimen>             <!-- item 購物車icon與右緣 距離 -->
+        <dimen name="community_vp_item_cart_bottom_space">26px</dimen>            <!-- item 購物車icon與底緣 距離 -->
 
 
 </resources>
