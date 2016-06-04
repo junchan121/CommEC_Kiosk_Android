@@ -6,8 +6,8 @@
               android:orientation="horizontal">
 
     <RelativeLayout
-        android:layout_width="@dimen/community_goods_attribute_dialog_frame_w"
-        android:layout_height="@dimen/community_goods_attribute_dialog_frame_h"
+        android:layout_width="@dimen/community_goods_attribute_dialog_out_w"
+        android:layout_height="@dimen/community_goods_attribute_dialog_out_h"
         android:orientation="vertical">
 
         <LinearLayout

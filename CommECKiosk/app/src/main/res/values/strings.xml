@@ -41,4 +41,12 @@
     <string name="community_goods_attribute_amount">数量</string>
     <string name="community_goods_attribute_add_to_cart">加入购物车</string>
 
+
+    <!-- K2.3.0 商品詳情 -->
+    <string name="community_goods_detail_shop">商家介绍：%1$s</string>
+    <string name="community_goods_detail_price">￥ %1$d</string>
+    <string name="community_goods_detail_reserve_sales">库存:%1$d/销售:%2$d</string>
+    <string name="community_goods_detail_shop_name">店家名称：%1$s</string>
+    <string name="community_goods_detail_btn_comment">全部 评价</string>
+
 </resources>
