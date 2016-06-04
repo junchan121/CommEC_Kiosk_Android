@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXX"
+        android:id="@+id/btn_item"
+        android:background="@mipmap/btn_selected_default"
+        android:textColor="@color/color_4a4a4a"
+        android:textSize="@dimen/community_goods_attribute_sub_title_sp"/>
+</LinearLayout>

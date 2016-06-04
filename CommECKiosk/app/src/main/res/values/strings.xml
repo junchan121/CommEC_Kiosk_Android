@@ -34,5 +34,11 @@
     <string name="community_reserve_sales">库存:%1$d/销售:%2$d</string>
 
 
+    <!-- K2.1.1社區首頁-商品屬性 -->
+    <string name="community_goods_attribute_price">￥ %1$d</string>
+    <string name="community_goods_attribute_size">尺码</string>
+    <string name="community_goods_attribute_color">颜色</string>
+    <string name="community_goods_attribute_amount">数量</string>
+    <string name="community_goods_attribute_add_to_cart">加入购物车</string>
 
 </resources>
