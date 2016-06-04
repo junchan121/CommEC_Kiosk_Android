@@ -1,164 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/color_9b9b9b"
-                android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_9b9b9b"
+              android:orientation="horizontal">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="@dimen/community_goods_attribute_dialog_w"
-        android:layout_height="@dimen/community_goods_attribute_dialog_h"
-        android:layout_marginTop="20px"
-        android:background="@android:color/white"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/iv_goods_photo"
-            android:layout_width="@dimen/community_goods_attribute_photo_wh"
-            android:layout_height="@dimen/community_goods_attribute_photo_wh"
-            android:layout_marginLeft="@dimen/community_goods_attribute_photo_left_space"
-            android:background="@color/color_9b9b9b"/>
+    <RelativeLayout
+        android:layout_width="@dimen/community_goods_attribute_dialog_frame_w"
+        android:layout_height="@dimen/community_goods_attribute_dialog_frame_h"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="@dimen/community_goods_attribute_right_w"
-            android:layout_height="@dimen/community_goods_attribute_right_h"
-            android:layout_marginLeft="@dimen/community_goods_attribute_photo_right_space"
-            android:orientation="vertical">
+            android:id="@+id/linearLayout"
+            android:layout_width="@dimen/community_goods_attribute_dialog_w"
+            android:layout_height="@dimen/community_goods_attribute_dialog_h"
+            android:layout_marginTop="20px"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/iv_goods_photo"
+                android:layout_width="@dimen/community_goods_attribute_photo_wh"
+                android:layout_height="@dimen/community_goods_attribute_photo_wh"
+                android:layout_marginLeft="@dimen/community_goods_attribute_photo_left_space"
+                android:background="@color/color_9b9b9b"/>
 
-                <TextView
-                    android:id="@+id/tv_goods_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Goods"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    />
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="@dimen/community_goods_attribute_right_w"
+                android:layout_height="@dimen/community_goods_attribute_right_h">
 
-                <TextView
-                    android:id="@+id/tv_price"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/community_goods_attribute_price"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="@color/color_ec6c00"
-                    android:layout_marginLeft="@dimen/community_goods_attribute_name_price_space"/>
-            </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_goods_attribute"
+                    android:layout_width="@dimen/community_goods_attribute_right_w"
+                    android:layout_height="@dimen/community_goods_attribute_right_h"
+                    android:layout_marginLeft="@dimen/community_goods_attribute_photo_right_space"
+                    android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="@dimen/community_goods_attribute_size_top_space"
-                android:layout_marginBottom="@dimen/community_goods_attribute_size_bottom_space">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        >
 
-                <TextView
-                    android:id="@+id/tv1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/community_goods_attribute_size"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+                        <TextView
+                            android:id="@+id/tv_goods_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="Goods"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_4a4a4a"
+                            android:layout_weight="2"
+                            android:gravity="left"
+                            android:textSize="@dimen/community_goods_attribute_name_sp"/>
 
-                <GridView
-                    android:id="@+id/gv_size"
-                    android:layout_width="500px"
-                    android:layout_height="150px"
-                    android:layout_marginLeft="@dimen/community_goods_attribute_sub_title_left"/>
-            </LinearLayout>
+                        <TextView
+                            android:id="@+id/tv_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/community_goods_attribute_price"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_ec6c00"
+                            android:layout_weight="1"
+                            android:layout_gravity="top"
+                            android:gravity="right"
+                            android:textSize="@dimen/community_goods_attribute_price_sp"/>
+                    </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tv2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/community_goods_attribute_color"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-                <GridView
-                    android:id="@+id/gv_color"
-                    android:layout_width="500px"
-                    android:layout_height="150px"
-                    android:layout_marginLeft="@dimen/community_goods_attribute_sub_title_left"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="@dimen/community_goods_attribute_amount_bottom_space"
-                android:layout_marginTop="@dimen/community_goods_attribute_amount_top_space">
-
-                <TextView
-                    android:id="@+id/tv3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/community_goods_attribute_amount"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-                <RelativeLayout
-                    android:layout_width="@dimen/community_goods_attribute_amount_controller_w"
-                    android:layout_height="@dimen/community_goods_attribute_amount_controller_h"
-                    android:background="@mipmap/android_img_btn_backgroung"
-                    android:layout_marginLeft="@dimen/community_goods_attribute_sub_title_left"
-                    >
-
-                    <ImageButton
-                        android:layout_width="@dimen/community_goods_attribute_amount_reduce_w"
-                        android:layout_height="@dimen/community_goods_attribute_amount_reduce_h"
-                        android:id="@+id/ibtn_reduce"
-                        android:background="@mipmap/btn_reduce"
-                        android:layout_centerVertical="true"
-                        android:layout_alignParentLeft="true"
-                        android:layout_marginLeft="@dimen/community_goods_attribute_amount_lr_space"/>
-
-                    <TextView
+                    <LinearLayout
+                        android:id="@+id/ll_size"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="1"
-                        android:id="@+id/tv_count"
-                        android:layout_centerInParent="true"/>
+                        android:layout_marginBottom="@dimen/community_goods_attribute_size_bottom_space"
+                        android:layout_marginTop="@dimen/community_goods_attribute_size_top_space"
+                        android:orientation="horizontal"
+                        >
 
-                    <ImageButton
-                        android:layout_width="@dimen/community_goods_attribute_amount_increase_wh"
-                        android:layout_height="@dimen/community_goods_attribute_amount_increase_wh"
-                        android:id="@+id/tv_increase"
-                        android:background="@mipmap/btn_increase"
-                        android:layout_centerVertical="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="@dimen/community_goods_attribute_amount_lr_space"/>
-                </RelativeLayout>
+                        <TextView
+                            android:id="@+id/tv1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/community_goods_attribute_size"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_4a4a4a"
+                            android:textSize="@dimen/community_goods_attribute_sub_title_sp"/>
 
-            </LinearLayout>
+                        <GridView
+                            android:id="@+id/gv_size"
+                            android:layout_width="@dimen/community_goods_attribute_vp_w"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/community_goods_attribute_sub_title_left"/>
+                    </LinearLayout>
 
-            <Button
-                android:layout_width="@dimen/community_goods_attribute_btn_add_to_cart_w"
-                android:layout_height="@dimen/community_goods_attribute_btn_add_to_cart_h"
-                android:text="@string/community_goods_attribute_add_to_cart"
-                android:id="@+id/btn_add_to_cart"
-                android:background="@mipmap/btn_addtoshoppingcar"
-                android:textColor="@android:color/white"
-                android:paddingLeft="@dimen/community_goods_attribute_btn_add_to_cart_txt_left_space"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="@dimen/community_goods_attribute_amount_bottom_space"/>
+                    <LinearLayout
+                        android:id="@+id/ll_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/community_goods_attribute_color"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_4a4a4a"
+                            android:textSize="@dimen/community_goods_attribute_sub_title_sp"/>
+
+                        <GridView
+                            android:id="@+id/gv_color"
+                            android:layout_width="@dimen/community_goods_attribute_vp_w"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/community_goods_attribute_sub_title_left"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/community_goods_attribute_amount_bottom_space"
+                        android:layout_marginTop="@dimen/community_goods_attribute_amount_top_space"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/community_goods_attribute_amount"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_4a4a4a"
+                            android:textSize="@dimen/community_goods_attribute_sub_title_sp"/>
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/community_goods_attribute_amount_controller_w"
+                            android:layout_height="@dimen/community_goods_attribute_amount_controller_h"
+                            android:layout_marginLeft="@dimen/community_goods_attribute_sub_title_left"
+                            android:background="@mipmap/android_img_btn_backgroung"
+                            android:id="@+id/rl_count">
+
+                            <ImageButton
+                                android:id="@+id/ibtn_reduce"
+                                android:layout_width="@dimen/community_goods_attribute_amount_reduce_w"
+                                android:layout_height="@dimen/community_goods_attribute_amount_reduce_h"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/community_goods_attribute_amount_lr_space"
+                                android:background="@mipmap/btn_reduce"/>
+
+                            <TextView
+                                android:id="@+id/tv_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="@dimen/community_goods_attribute_amount_sp"
+                                android:textColor="@color/color_191919"/>
+
+                            <ImageButton
+                                android:id="@+id/tv_increase"
+                                android:layout_width="@dimen/community_goods_attribute_amount_increase_wh"
+                                android:layout_height="@dimen/community_goods_attribute_amount_increase_wh"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/community_goods_attribute_amount_lr_space"
+                                android:background="@mipmap/btn_increase"/>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_add_to_cart"
+                        android:layout_width="@dimen/community_goods_attribute_btn_add_to_cart_w"
+                        android:layout_height="@dimen/community_goods_attribute_btn_add_to_cart_h"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/community_goods_attribute_amount_bottom_space"
+                        android:background="@mipmap/btn_addtoshoppingcar"
+                        android:paddingLeft="@dimen/community_goods_attribute_btn_add_to_cart_txt_left_space"
+                        android:text="@string/community_goods_attribute_add_to_cart"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/community_goods_attribute_btn_add_to_cart_sp"/>
+                </LinearLayout>
+            </ScrollView>
+
         </LinearLayout>
-    </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/ibtn_close"
-        android:layout_width="50px"
-        android:layout_height="50px"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="84dp"
-        android:background="@mipmap/btn_cancel"/>
-</RelativeLayout>
+        <ImageButton
+            android:id="@+id/ibtn_close"
+            android:layout_width="@dimen/community_goods_attribute_btn_close_wh"
+            android:layout_height="@dimen/community_goods_attribute_btn_close_wh"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/btn_cancel"/>
+    </RelativeLayout>
+</LinearLayout>

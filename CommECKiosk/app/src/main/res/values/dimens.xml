@@ -79,11 +79,14 @@
 
 
     <!-- K2.1.1社區首頁-商品屬性 -->
+    <dimen name="community_goods_attribute_dialog_frame_w">1525px</dimen>             <!-- Dialog 寬度 -->
+    <dimen name="community_goods_attribute_dialog_frame_h">925px</dimen>              <!-- Dialog 高度 -->
     <dimen name="community_goods_attribute_dialog_w">1500px</dimen>                   <!-- Dialog 寬度 -->
     <dimen name="community_goods_attribute_dialog_h">900px</dimen>                    <!-- Dialog 高度 -->
-    <dimen name="community_goods_attribute_name_sp">36sp</dimen>                      <!-- 商品名稱 文字大小 -->
-    <dimen name="community_goods_attribute_price_sp">72sp</dimen>                     <!-- 商品金額 文字大小 -->
+    <dimen name="community_goods_attribute_name_sp">36sp</dimen>                      <!-- 品名 文字大小 -->
+    <dimen name="community_goods_attribute_price_sp">72sp</dimen>                     <!-- 金額 文字大小 -->
     <dimen name="community_goods_attribute_sub_title_sp">40sp</dimen>                 <!-- 小標頭: 尺碼 顏色 數量 文字大小 -->
+    <dimen name="community_goods_attribute_amount_sp">36sp</dimen>                    <!-- 數量 文字大小 -->
     <dimen name="community_goods_attribute_btn_add_to_cart_sp">40sp</dimen>           <!-- 按鈕: 加入購物車 文字大小 -->
 
     <dimen name="community_goods_attribute_photo_wh">700px</dimen>                    <!-- 商品圖片 寬高 -->
@@ -95,22 +98,25 @@
     <dimen name="community_goods_attribute_right_h">700px</dimen>                     <!-- 商品描述區塊 高 -->
     <dimen name="community_goods_attribute_sub_title_left">50px</dimen>               <!-- 商品描述區塊 與右方寬度 -->
     <dimen name="community_goods_attribute_right_space">67px</dimen>                  <!-- 商品資訊區塊與右緣 距離 -->
-    <dimen name="community_goods_attribute_name_top_space">110px</dimen>              <!-- 商品名稱 與頂緣 距離 -->
-    <dimen name="community_goods_attribute_name_price_space">40px</dimen>             <!-- 商品名稱 與金額 間距 -->
-    <dimen name="community_goods_attribute_size_top_space">100px</dimen>              <!-- 商品尺寸與上方商品名稱 距離 -->
-    <dimen name="community_goods_attribute_size_bottom_space">120px</dimen>           <!-- 商品尺寸與下方商品顏色 距離 -->
-    <dimen name="community_goods_attribute_amount_top_space">45px</dimen>             <!-- 商品數量與上方商品顏色 距離 -->
-    <dimen name="community_goods_attribute_amount_bottom_space">23px</dimen>          <!-- 商品數量與下方按鈕 距離 -->
-    <dimen name="community_goods_attribute_amount_controller_w">300px</dimen>         <!-- 商品數量控制器 寬 -->
-    <dimen name="community_goods_attribute_amount_controller_h">60px</dimen>          <!-- 商品數量控制器 高 -->
-    <dimen name="community_goods_attribute_amount_reduce_w">30px</dimen>              <!-- 商品數量 - 寬度 -->
-    <dimen name="community_goods_attribute_amount_reduce_h">2px</dimen>               <!-- 商品數量 - 高度 -->
-    <dimen name="community_goods_attribute_amount_increase_wh">30px</dimen>           <!-- 商品數量 + 寬高 -->
-    <dimen name="community_goods_attribute_amount_lr_space">35px</dimen>              <!-- 商品數量 -+ 左右緣 距離 -->
+    <dimen name="community_goods_attribute_name_top_space">110px</dimen>              <!-- 品名 與頂緣 距離 -->
+    <dimen name="community_goods_attribute_name_price_space">40px</dimen>             <!-- 品名 與金額 間距 -->
+    <dimen name="community_goods_attribute_size_top_space">100px</dimen>              <!-- 尺碼與上方商品名稱 距離 -->
+    <dimen name="community_goods_attribute_size_bottom_space">120px</dimen>           <!-- 尺碼與下方商品顏色 距離 -->
+    <dimen name="community_goods_attribute_vp_w">490px</dimen>                        <!-- 尺碼與顏色 VP 寬度 -->
+    <dimen name="community_goods_attribute_amount_top_space">45px</dimen>             <!-- 數量與上方商品顏色 距離 -->
+    <dimen name="community_goods_attribute_amount_bottom_space">23px</dimen>          <!-- 數量與下方按鈕 距離 -->
+    <dimen name="community_goods_attribute_amount_controller_w">300px</dimen>         <!-- 數量控制器 寬 -->
+    <dimen name="community_goods_attribute_amount_controller_h">60px</dimen>          <!-- 數量控制器 高 -->
+    <dimen name="community_goods_attribute_amount_reduce_w">30px</dimen>              <!-- 數量 - 寬度 -->
+    <dimen name="community_goods_attribute_amount_reduce_h">2px</dimen>               <!-- 數量 - 高度 -->
+    <dimen name="community_goods_attribute_amount_increase_wh">30px</dimen>           <!-- 數量 + 寬高 -->
+    <dimen name="community_goods_attribute_amount_lr_space">35px</dimen>              <!-- 數量 -+ 左右緣 距離 -->
 
     <dimen name="community_goods_attribute_btn_add_to_cart_w">350px</dimen>           <!-- 按鈕: 加入購物車 寬度 -->
     <dimen name="community_goods_attribute_btn_add_to_cart_h">100px</dimen>           <!-- 按鈕: 加入購物車 高度 -->
-    <dimen name="community_goods_attribute_btn_add_to_cart_txt_left_space">30px</dimen> <!-- 按鈕: 加入購物車 文字與icon距離 -->
+    <dimen name="community_goods_attribute_btn_add_to_cart_txt_left_space">30px</dimen>  <!-- 按鈕: 加入購物車 文字與icon距離 -->
+
+    <dimen name="community_goods_attribute_btn_close_wh">50px</dimen>                 <!-- 按鈕: 關閉 寬高 -->
 
 
 </resources>
