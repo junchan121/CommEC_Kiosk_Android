@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31px">
+
+        <ImageView
+            android:id="@+id/iv_commentator_photo"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="50px"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:layout_marginTop="50px"
+            android:background="@mipmap/img_head"/>
+
+        <TextView
+            android:id="@+id/tv_commentator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:layout_toRightOf="@+id/iv_commentator_photo"
+            android:text="Commentator"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="36sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="51px"
+            android:layout_marginTop="40px"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RatingBar
+                android:id="@+id/rb_goods_rating"
+                android:layout_width="212.5px"
+                android:layout_height="34px"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tv_search_shop_name"
+                android:numStars="5"
+                android:progressDrawable="@drawable/custom_ratingbar"
+                android:rating="3.5"
+                android:stepSize="0.5"/>
+
+            <TextView
+                android:id="@+id/tv_goods_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_ec6c00"
+                android:textSize="36sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/tv_commentator"
+            android:layout_marginBottom="32px"
+            android:layout_marginTop="25px"
+            android:layout_toRightOf="@+id/iv_commentator_photo"
+            android:text="Comment"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_9b9b9b"
+            android:textSize="36sp"/>
+    </RelativeLayout>
+</LinearLayout>

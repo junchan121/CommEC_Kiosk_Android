@@ -266,7 +266,7 @@
                         android:layout_marginTop="31px">
 
                         <Button
-                            android:id="@+id/ibtn_all_comment"
+                            android:id="@+id/iv_commentator_photo"
                             android:layout_width="100px"
                             android:layout_height="100px"
                             android:layout_alignParentLeft="true"
@@ -285,7 +285,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="40px"
-                            android:layout_toRightOf="@+id/ibtn_all_comment"
+                            android:layout_toRightOf="@+id/iv_commentator_photo"
                             android:text="Commentator"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:textSize="36sp"/>
@@ -329,7 +329,7 @@
                             android:layout_marginBottom="32px"
                             android:layout_marginRight="51px"
                             android:layout_marginTop="25px"
-                            android:layout_toRightOf="@+id/ibtn_all_comment"
+                            android:layout_toRightOf="@+id/iv_commentator_photo"
                             android:text="Comment"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:textColor="@color/color_9b9b9b"

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_9b9b9b"
+              android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="1525px"
+        android:layout_height="925px"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="1500px"
+            android:layout_height="900px"
+            android:layout_marginTop="20px"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="50px"
+                    android:paddingRight="36px">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="商品介紹-"
+                        android:id="@+id/textView6"
+                        android:textColor="@color/color_4a4a4a"
+                        android:layout_marginTop="50px"
+                        android:layout_marginBottom="27px"
+                        android:textSize="64sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Goods info"
+                        android:id="@+id/tv_goods_info"
+                        android:textColor="@color/color_9b9b9b"
+                        android:textSize="36sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="商品详细资详连结:"
+                        android:id="@+id/textView8"
+                        android:textColor="@color/color_4a4a4a"
+                        android:layout_marginTop="40px"
+                        android:layout_marginBottom="20px"
+                        android:textSize="36sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Goods link"
+                        android:id="@+id/tv_goods_link"
+                        android:textColor="@color/color_4a90e2"
+                        android:textSize="36sp"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ibtn_close"
+            android:layout_width="@dimen/community_goods_attribute_btn_close_wh"
+            android:layout_height="@dimen/community_goods_attribute_btn_close_wh"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/btn_cancel"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_9b9b9b"
+              android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="1525px"
+        android:layout_height="925px"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="1500px"
+            android:layout_height="900px"
+            android:layout_marginTop="20px"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="全部 评价"
+                        android:id="@+id/textView5"
+                        android:textColor="@color/color_4a4a4a"
+                        android:textSize="64sp"
+                        android:layout_marginTop="50px"
+                        android:layout_marginLeft="50px"/>
+
+                    <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/lv_comment"
+                        android:layout_marginLeft="110px"
+                        android:layout_marginRight="108px"
+                        android:layout_marginBottom="50px"
+                        android:layout_marginTop="32px"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ibtn_close"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/btn_cancel"/>
+    </RelativeLayout>
+</LinearLayout>
