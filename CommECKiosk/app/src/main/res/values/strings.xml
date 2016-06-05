@@ -49,4 +49,8 @@
     <string name="community_goods_detail_shop_name">店家名称：%1$s</string>
     <string name="community_goods_detail_btn_comment">全部 评价</string>
 
+
+    <!-- K3.0.0 店舖首頁 -->
+    <string name="shop_goods_total">共有%1$d样商品</string>
+
 </resources>

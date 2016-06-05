@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_vp"
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        android:layout_below="@+id/tv_category"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibtn_left"
+            android:layout_width="24px"
+            android:layout_height="40px"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15px"
+            android:background="@mipmap/btn_arrow_left"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px">
+
+        </android.support.v4.view.ViewPager>
+
+        <ImageButton
+            android:id="@+id/ibtn_right"
+            android:layout_width="24px"
+            android:layout_height="40px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15px"
+            android:background="@mipmap/btn_arrow_right"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_main_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_vp"
+        android:layout_marginTop="57px"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn_hair"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:background="@mipmap/btn_shopmainpage_shampoo"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_hair"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn_market"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:layout_marginLeft="@dimen/community_bottom_btn_space"
+            android:background="@mipmap/btn_shopmainpage_market_convenience"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_market"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn_food"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:layout_marginLeft="@dimen/community_bottom_btn_space"
+            android:background="@mipmap/btn_shopmainpage_fooddrinks"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_food"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn_life"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:layout_marginLeft="@dimen/community_bottom_btn_space"
+            android:background="@mipmap/btn_shopmainpage_life_services"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_life"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn_trade"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:layout_marginLeft="@dimen/community_bottom_btn_space"
+            android:background="@mipmap/btn_shopmainpage_trade"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_trade"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn_fruit"
+            android:layout_width="@dimen/community_bottom_btn_wh"
+            android:layout_height="@dimen/community_bottom_btn_wh"
+            android:layout_marginLeft="@dimen/community_bottom_btn_space"
+            android:background="@mipmap/btn_shopmainpage_fruitvegetables"
+            android:paddingTop="@dimen/community_bottom_btn_txt_top_space"
+            android:text="@string/community_btn_fruit"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+</RelativeLayout>
