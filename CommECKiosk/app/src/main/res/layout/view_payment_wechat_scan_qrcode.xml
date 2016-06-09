@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_9b9b9b"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="@dimen/community_goods_attribute_dialog_out_w"
+        android:layout_height="@dimen/community_goods_attribute_dialog_out_h"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="@dimen/community_goods_attribute_dialog_w"
+            android:layout_height="@dimen/community_goods_attribute_dialog_h"
+            android:layout_marginTop="20px"
+            android:background="@android:color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150px"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="90px"
+                android:layout_marginBottom="10px">
+
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="95px"
+                    android:id="@+id/imageView2"
+                    android:src="@mipmap/img_scanqrcode"
+                    android:layout_marginLeft="191px"
+                    android:layout_marginRight="10px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/cart_payment_method_wechat_scan_qrcode"
+                    android:id="@+id/textView11"
+                    android:textColor="@android:color/black"
+                    android:textSize="48sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="600px"
+                android:layout_height="600px"
+                android:id="@+id/imageView3" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ibtn_close"
+            android:layout_width="@dimen/community_goods_attribute_btn_close_wh"
+            android:layout_height="@dimen/community_goods_attribute_btn_close_wh"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/btn_cancel" />
+    </RelativeLayout>
+</LinearLayout>
