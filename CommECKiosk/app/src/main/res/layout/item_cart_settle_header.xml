@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:id="@+id/iv_shop"
+            android:background="@mipmap/img_shopicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Shop"
+            android:id="@+id/tv_shop"
+            android:textColor="@color/color_4a4a4a"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="54sp" />
+
+    </LinearLayout>
+</LinearLayout>

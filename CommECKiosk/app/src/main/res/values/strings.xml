@@ -61,7 +61,7 @@
     <string name="cart_btn_settle">结帐</string>
     <string name="cart_btn_del">删除</string>
     <string name="cart_payment_method">付款方式：</string>
-    <string name="cart_payment_method_ali">支付宝支付</string>
+    <string name="cart_payment_method_alipay">支付宝支付</string>
     <string name="cart_payment_method_wechat">微信支付</string>
     <string name="cart_payment_method_wallet">余额支付</string>
 
