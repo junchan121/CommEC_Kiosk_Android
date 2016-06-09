@@ -53,4 +53,35 @@
     <!-- K3.0.0 店舖首頁 -->
     <string name="shop_goods_total">共有%1$d样商品</string>
 
+
+    <!-- K5.0.0 購物車 -->
+    <string name="cart_select_all">全选</string>
+    <string name="cart_select_num">已选数量:%1$d</string>
+    <string name="cart_total">合计: ￥ %1$d</string>
+    <string name="cart_btn_settle">结帐</string>
+    <string name="cart_btn_del">删除</string>
+    <string name="cart_payment_method">付款方式：</string>
+    <string name="cart_payment_method_ali">支付宝支付</string>
+    <string name="cart_payment_method_wechat">微信支付</string>
+    <string name="cart_payment_method_wallet">余额支付</string>
+
+        <!-- K5.2.0購物車-結帳-餘額支付 -->
+
+        <!-- K5.2.0購物車-結帳-餘額支付 -->
+        <string name="cart_payment_method_wallet_enter_phone">输入手机号</string>
+        <string name="cart_payment_method_wallet_enter_code">输入验证码</string>
+        <string name="cart_payment_method_wallet_btn_send_code">发送验证码</string>
+        <string name="cart_payment_method_wallet_notice">不存在该用户信息，\n请先下载兜兜平台app注册成为会员或购买会员卡</string>
+        <string name="cart_payment_method_wallet_btn_confirm">确定</string>
+
+        <string name="cart_payment_method_wallet_countdown">%1$s后可重发验证码</string>
+        <string name="cart_payment_method_wallet_btn_send_code_again">重送验证码</string>
+
+        <string name="cart_payment_method_wallet_pay_success">支付成功</string>
+        <string name="cart_payment_method_wallet_check_message">相关信息将发送至您的手机，请查收</string>
+        <string name="cart_payment_method_wallet_amount_spend">消费金额:%1$d</string>
+
+        <!-- K5.3.0購物車-結帳-微信支付寶 -->
+        <string name="cart_payment_method_wechat_scan_qrcode">请打开微信扫一扫功能，扫描此二维码进行支付</string>
+
 </resources>
