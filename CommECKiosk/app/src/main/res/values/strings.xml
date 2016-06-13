@@ -50,8 +50,15 @@
     <string name="community_goods_detail_btn_comment">全部 评价</string>
 
 
-    <!-- K3.0.0 店舖首頁 -->
+    <!-- K4.0.0 店舖首頁 -->
     <string name="shop_goods_total">共有%1$d样商品</string>
+
+    <!-- K4.1.0 店鋪詳情 -->
+    <string name="shop_detail_phone">店铺电话：%1$s</string>
+    <string name="shop_detail_address">店铺地址：%1$s</string>
+    <string name="shop_detail">店铺简介</string>
+    <string name="shop_detail_closed">店己超过营业时间</string>
+    <string name="shop_detail_detail">店铺简介-</string>
 
 
     <!-- K5.0.0 購物車 -->

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_9b9b9b"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="@dimen/community_goods_attribute_dialog_out_w"
+        android:layout_height="@dimen/community_goods_attribute_dialog_out_h"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="@dimen/community_goods_attribute_dialog_w"
+            android:layout_height="@dimen/community_goods_attribute_dialog_h"
+            android:layout_marginTop="20px"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="50px"
+                    android:paddingRight="50px">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shop_detail_detail"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/color_4a4a4a"
+                        android:textSize="64sp"
+                        android:layout_marginTop="50px"
+                        android:layout_marginBottom="40px" />
+
+                    <TextView
+                        android:id="@+id/tv_shop_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/color_9b9b9b"
+                        android:textSize="36sp"
+                        android:layout_marginBottom="40px" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ibtn_close"
+            android:layout_width="@dimen/community_goods_attribute_btn_close_wh"
+            android:layout_height="@dimen/community_goods_attribute_btn_close_wh"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/btn_cancel" />
+    </RelativeLayout>
+</LinearLayout>
