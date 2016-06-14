@@ -88,6 +88,10 @@
         <string name="cart_payment_method_wallet_check_message">相关信息将发送至您的手机，请查收</string>
         <string name="cart_payment_method_wallet_amount_spend">消费金额:%1$d</string>
 
+        <!-- K5.2.2購物車-結帳-輸入手機號碼 -->
+        <string name="cart_enter_cellphone">請輸入手機號碼</string>
+        <string name="cart_enter_cellphone_tips">请输入手机号，以方便货到通知!</string>
+
         <!-- K5.3.0購物車-結帳-微信支付寶 -->
         <string name="cart_payment_method_wechat_scan_qrcode">请打开微信扫一扫功能，扫描此二维码进行支付</string>
 

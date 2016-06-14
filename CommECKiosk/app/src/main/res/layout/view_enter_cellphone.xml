@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_9b9b9b"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="@dimen/community_goods_attribute_dialog_out_w"
+        android:layout_height="@dimen/community_goods_attribute_dialog_out_h"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="@dimen/community_goods_attribute_dialog_w"
+            android:layout_height="@dimen/community_goods_attribute_dialog_h"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cart_enter_cellphone"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    android:textSize="64sp"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/et_cellphone"
+                    android:layout_width="650px"
+                    android:layout_height="200px"
+                    android:layout_marginBottom="25px"
+                    android:layout_marginTop="50px"
+                    android:background="@mipmap/img_phonenumber_border"
+                    android:ems="14"
+                    android:inputType="textAutoComplete"
+                    android:textColor="@android:color/black"
+                    android:textSize="96sp" />
+
+                <TextView
+                    android:id="@+id/tv_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/cart_enter_cellphone_tips"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_fb0007"
+                    android:textSize="36sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical|center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibtn_num1"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:background="@mipmap/btn_phonenumber_1" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_num2"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginRight="40px"
+                        android:background="@mipmap/btn_phonenumber_2" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_num3"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:background="@mipmap/btn_phonenumber_3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30px"
+                    android:layout_marginBottom="30px">
+
+                    <ImageButton
+                        android:id="@+id/ibtn_num4"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:background="@mipmap/btn_phonenumber_4" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_num5"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginRight="40px"
+                        android:background="@mipmap/btn_phonenumber_5" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_num6"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:background="@mipmap/btn_phonenumber_6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibtn_num7"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:background="@mipmap/btn_phonenumber_7" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_num8"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginRight="40px"
+                        android:background="@mipmap/btn_phonenumber_8" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_num9"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:background="@mipmap/btn_phonenumber_9" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30px">
+
+                    <ImageButton
+                        android:id="@+id/ibtn_back"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:background="@mipmap/btn_phonenumber_backspace" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_num0"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginRight="40px"
+                        android:background="@mipmap/btn_phonenumber_0" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_enter"
+                        android:layout_width="160px"
+                        android:layout_height="160px"
+                        android:background="@mipmap/btn_phonenumber_enter" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ibtn_close"
+            android:layout_width="@dimen/community_goods_attribute_btn_close_wh"
+            android:layout_height="@dimen/community_goods_attribute_btn_close_wh"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/btn_cancel" />
+    </RelativeLayout>
+</LinearLayout>
